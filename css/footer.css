@@ -60,3 +60,20 @@
 .footer-social-link:focus {
     background-color: #31D0AA;
 }
+
+.footer-subscribe {}
+
+.footer-form {}
+
+.footer-form-label {}
+
+.footer-form-input {}
+
+.footer-form-button {}
+
+.footer-form-button:hover,
+.footer-form-button:focus {}
+
+.footer-form-icon {}
+
+.backdrop {}
