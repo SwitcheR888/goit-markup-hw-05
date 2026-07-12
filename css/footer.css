@@ -113,6 +113,16 @@
 
 .modal-button {}
 
+.modal-title {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+
 .modal-form {}
 
 .modal-form-input-wrapper {
