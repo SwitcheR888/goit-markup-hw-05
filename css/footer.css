@@ -120,18 +120,26 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-
 }
 
 .modal-form {}
+
+.modal-form-label {
+    color: #8E8F99;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
 
 .modal-form-input-wrapper {
     position: relative;
     gap: 24px;
     width: 453px;
 }
-
-.modal-form-label {}
 
 .modal-form-input {}
 
