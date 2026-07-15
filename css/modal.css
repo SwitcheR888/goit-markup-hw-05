@@ -94,14 +94,29 @@
 
 .modal-agreement {
     width: 100%;
-
 }
 
-.modal-input-agreement {}
+.modal-input-agreement {
+    border-radius: 2px;
+    border: 1px solid #2E2F42;
+}
 
-.modal-form-checkbox {}
+.modal-form-checkbox {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+    align-items: center;
+}
 
 .modal-checkbox-icon {}
+
+.agreement-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+}
 
 .check-mark {}
 
