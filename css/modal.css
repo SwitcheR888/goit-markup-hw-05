@@ -13,6 +13,8 @@
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
+    transition: 300ms ease-in 200ms;
+    transition-property: opacity, visibility;
 }
 
 .backdrop.is-open {
@@ -30,7 +32,6 @@
         0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 2px 1px rgba(0, 0, 0, 0.20);
-
 }
 
 .modal-button {}
