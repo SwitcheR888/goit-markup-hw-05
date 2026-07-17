@@ -55,6 +55,7 @@
     background-color: #404BBF;
     border-color: #2E2F42;
     color: #FFFFFF;
+    outline: none;
 }
 
 .modal-button-icon {}
