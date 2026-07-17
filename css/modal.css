@@ -50,17 +50,12 @@
     align-items: center;
 }
 
-.modal-button:hover {
+.modal-button:hover,
+.modal-button:focus {
     background-color: #404BBF;
-    border-color: 1px solid #2E2F42;
+    border-color: #2E2F42;
     color: #FFFFFF;
 }
-
-.modal-button:focus {
-    color: ;
-}
-
-
 
 .modal-button-icon {}
 
