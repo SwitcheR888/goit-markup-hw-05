@@ -145,6 +145,10 @@
     color: #2E2F42;
 }
 
+.modal-form-textarea::placeholder {
+    color: #2E2F42;
+}
+
 .modal-agreement {
     width: 100%;
     margin-bottom: 24px;
