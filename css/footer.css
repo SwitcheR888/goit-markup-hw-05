@@ -30,7 +30,8 @@
     width: 264px;
 }
 
-.footer-social-title {
+.footer-social-title,
+.subscribe-title {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
@@ -61,7 +62,12 @@
     background-color: #31D0AA;
 }
 
-.footer-subscribe {}
+.footer-subscribe {
+    margin-left: 83px;
+}
+
+.subscribe-title {}
+
 
 .footer-form {
     display: flex;
@@ -70,6 +76,7 @@
 
 .footer-form-label {
     width: 264px;
+
 }
 
 .footer-form-input {
@@ -77,6 +84,15 @@
     height: 40px;
     border-radius: 4px;
     border: 1px solid #FFFFFF;
+    background-color: #2E2F42;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+
+    padding-left: 16px;
 }
 
 .footer-form-button {
