@@ -480,8 +480,11 @@
             <p class="modal-title">Leave your contacts and we will call you back</p>
             <form class="modal-form">
 
-                <label for="name" class="modal-form-label">
-                    Name
+                <div class="modal-form-field">
+
+                    <label for="name" class="modal-form-label">
+                        Name
+                    </label>
 
                     <div class="modal-form-input-wrapper">
                         <input class="modal-form-input" type="text" name="name" id="name">
@@ -489,11 +492,12 @@
                             <use href="./images/icons.svg#person"></use>
                         </svg>
                     </div>
+                </div>
+                <div class="modal-form-field">
 
-                </label>
-
-                <label for="phone" class="modal-form-label">
-                    Phone
+                    <label for="phone" class="modal-form-label">
+                        Phone
+                    </label>
 
                     <div class="modal-form-input-wrapper">
                         <input class="modal-form-input" type="tel" name="phone" id="phone">
@@ -501,11 +505,13 @@
                             <use href="./images/icons.svg#phone"></use>
                         </svg>
                     </div>
+                </div>
 
-                </label>
+                <div class="modal-form-field">
 
-                <label for="email" class="modal-form-label">
-                    Email
+                    <label for="email" class="modal-form-label">
+                        Email
+                    </label>
 
                     <div class="modal-form-input-wrapper">
                         <input class="modal-form-input" type="email" name="email" id="email">
@@ -513,16 +519,15 @@
                             <use href="./images/icons.svg#email"></use>
                         </svg>
                     </div>
+                </div>
 
-                </label>
-
-                <label for="comment" class="modal-form-label">
-                    Comment
-
-                    <textarea class="modal-form-textarea" name="comment" placeholder="Text input" id="comment">Text input
+                <div class="modal-form-field">
+                    <label for="comment" class="modal-form-label">
+                        Comment
+                    </label>
+                    <textarea class="modal-form-textarea" name="comment" id="comment" placeholder="Text input">
                     </textarea>
-
-                </label>
+                </div>
 
                 <div class="modal-agreement">
                     <input class="modal-input-agreement sr-only" type="checkbox" name="privacy-policy"
