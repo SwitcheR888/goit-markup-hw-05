@@ -159,17 +159,6 @@
     border: 1px solid #2E2F42;
 }
 
-.modal-input-agreement:checked+.modal-form-checkbox .modal-checkbox-icon .check-mark {
-    opacity: 1;
-    color: #F4F4FD;
-}
-
-.modal-input-agreement:checked+.modal-form-checkbox .modal-checkbox-icon {
-    background-color: #404BBF;
-    border: 1px solid #404BBF;
-
-}
-
 .modal-form-checkbox {
     display: inline-flex;
     align-items: center;
@@ -192,6 +181,16 @@
 
 .check-mark {
     opacity: 0;
+}
+
+.modal-input-agreement:checked+.modal-form-checkbox .modal-checkbox-icon .check-mark {
+    opacity: 1;
+    fill: #F4F4FD;
+}
+
+.modal-input-agreement:checked+.modal-form-checkbox .modal-checkbox-icon {
+    background-color: #404BBF;
+    border: 1px solid #404BBF;
 }
 
 .agreement-text {
