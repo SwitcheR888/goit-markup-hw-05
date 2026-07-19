@@ -96,7 +96,7 @@
     letter-spacing: 0.04em;
 }
 
-.modal-form-field:not(:first-child) {
+.modal-form-field+.modal-form-field {
     margin-top: 8px;
 }
 
